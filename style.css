@@ -1,7 +1,8 @@
 nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 3ch;
+    padding-top: 2ch;
+    padding-bottom: 2ch;
     background-color: #1A1B1E;
 }
 .hover:hover{
