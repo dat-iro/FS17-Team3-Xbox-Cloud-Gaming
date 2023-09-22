@@ -1,0 +1,47 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3ch;
+    background-color: #1A1B1E;
+}
+.hover:hover{
+    background-color:grey;
+}
+#logInButton{
+    color: white;
+    background-color: #04b358;
+    border-radius: 1ch;
+    padding: 1.75ch 13ch;
+    border: 0px;
+}
+#searchBar{
+    width: 38ch;
+    height: 5.5ch;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 5ch;
+    border: 1px solid white;
+}
+#logo{
+    width: 100%;
+    height: 100%;
+}
+#cloudGamingBeta{
+    border-radius: 1ch;
+}
+.left{
+    margin-left: 5ch;
+}
+#user{
+    margin-right: 8ch;
+}
+.right{
+    margin-right: 2ch;
+}
+svg{
+    width: 4ch;
+    height: 4ch;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
