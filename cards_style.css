@@ -1,0 +1,98 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    font-weight: 400;
+    gap: 15px;
+}
+
+.card {
+    width: 200px;
+    height: 300px;
+    position: relative;
+} 
+
+img {
+    width: 200px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 15px 2px #000000; 
+    box-shadow: 5px 5px 15px 2px #000000;
+}
+
+.card__icons {
+    display: flex;
+    position: relative;
+    color: white;
+    margin-top: -70px;
+    gap: 30px;
+}
+
+.gamepass { 
+    width: 200px;
+    transform: scale(0.2);
+    margin-left: -70px;
+}
+
+.pad {
+    width: 30px;
+}
+
+#pad__icon__fortnite {
+    margin-left: 160px;
+}
+
+.pad__black-box { 
+    position: relative;
+    margin-top: -52px;
+    margin-left: 150px;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    opacity: 60%;
+}
+
+.card__popup-bar {   
+    position: absolute;
+    background-color: black;
+    color: white;
+    display: none;
+    width: 200px;
+    min-height: 30px;
+    max-height: auto;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    bottom: 0;
+}
+
+.card:hover .card__popup-bar {
+    display: block;
+    opacity: 70%;
+}
+
+.card:hover .card__icons {
+    display: none;
+}
+
+.card:hover .pad__black-box {
+    display: none;
+}
+
+p {
+    padding-left: 1rem;
+    padding-top: 0.3rem;
+}
+
+/* visibility hidden di defaul, max-heigth 0
+in hover li cambia, max-heigth 100px
+transition max-heigth 1s ease-in */
