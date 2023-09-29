@@ -1,9 +1,24 @@
+@media(max-width: 1000px){
+    #logInButton{
+    display: none;
+    }
+}
+@media (max-width: 750px){
+    #logInButton{
+    display: none;
+    }
+    #searchBar{
+        display: none;
+    }
+}
 nav{
+    height: 8vh;
     display: flex;
     justify-content: space-between;
     padding-top: 2ch;
     padding-bottom: 2ch;
     background-color: #1A1B1E;
+    flex-wrap: nowrap;
 }
 .hover:hover{
     background-color:grey;
